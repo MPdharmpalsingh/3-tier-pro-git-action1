@@ -4,7 +4,7 @@ name: Production CD Pipeline
 on:
   push:
     branches:
-      - 3-tier-pro-git-action1
+      - main
     paths:
       - k8-manifests/prod/app-deployment.yaml
       - .github/workflows/prod-cd.yaml
