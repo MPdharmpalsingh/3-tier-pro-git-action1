@@ -7,7 +7,7 @@ on:
     paths:
       - client/**
       - server/**
-      - .github/workflows/maindps.yml
+      - .github/workflows/dps.yml
 permissions:
   contents: write
   id-token: write
